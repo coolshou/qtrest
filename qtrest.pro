@@ -12,6 +12,7 @@ QT += network
 QMAKE_CXXFLAGS += -std=c++17
 
 # Use custom variable to decide static or shared
+# qmake LIB_TYPE=static
 isEmpty(LIB_TYPE): LIB_TYPE = shared  # default to shared
 
 # Choose library type
